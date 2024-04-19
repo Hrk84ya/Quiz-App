@@ -2,10 +2,10 @@ package com.example.quiz_app;
 
 public class QuestionAnswer {
     public static String question[]={
-            "How many active S Class Hunters does Korea possess?",
-            "How many days does it take before a gate will break?",
+            "What is the name of the main protagonist in Solo Leveling?",
+            "What does Sung Jinwoo's 'System' refer to?",
             "How many people survived the Cartenon Temple (Double Dungeon) slaughter?",
-            "How many times must a Hunter participate in raids before they are eligible to become a guild master?",
+            "What is the name of the ride of Sung Jinwoo?",
             "What are the ranges of Hunter ranks?",
             "What classification was Sung Jinwoo given by the System?",
             "What did the Korean government want to use Essence Stones (Magic Cores) for?",
@@ -15,24 +15,24 @@ public class QuestionAnswer {
     };
 
     public static String[][] choices ={
-            {"7", "20", "5", "10"},
-            {"3", "14", "7", "13"},
-            {"5", "20", "10", "7"},
-            {"10", "20", "5", "15"},
-            {"S->E","A->D","SS->F","S->A"},
+            {"Sung Woo Jin", "Sung Ilwoo", "Sung Jinwoo", "Jin Sungwoo"},
+            {"A special interface for leveling up", "A supernatural ability granting power-ups", "A ranking system for hunters", "A mysterious force guiding Sung Jinwoo"},
+            {"5", "7", "9", "11"},
+            {"Beru", "Igris", "Tusk", "Kaisel"},
+            {"S -> E","A -> D","SS -> F","S -> A"},
             {"Mage","Necromancer","Assassin","Warrior"},
-            {"Healing Potion","Power Source","Weapons","Comms"},
+            {"Healing Potion","Power Source","Weapons","Communications"},
             {"Korean Guild Council", "Hunter Regulatory Agency", "Korean Hunters Association", "Gatekeepers Bureau"},
             {"Luminescence Stones", "Radiant Crystals", "Dungeon Gems", "Illumination Rocks"},
             {"Jinho Builders","Yoojin Construction", "Sunwoo Enterprises", "Jinwoo Constructors"}
     };
 
     public static String[] answers={
+            "Sung Jinwoo",
+            "A special interface for leveling up",
             "7",
-            "7",
-            "7",
-            "20",
-            "S->E",
+            "Kaisel",
+            "S -> E",
             "Necromancer",
             "Power Source",
             "Korean Hunters Association",

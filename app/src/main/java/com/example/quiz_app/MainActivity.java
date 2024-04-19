@@ -64,11 +64,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else{
             passStatus="Not Qualified";
         }
-        new AlertDialog.Builder(this).setTitle(passStatus).setMessage("Your score is: "+score+" out of "+totalQuestions)
-                .setPositiveButton("Restart",((dialog,i)->restartQuiz()))
+        new AlertDialog.Builder(this)
+                .setTitle(passStatus)
+                .setMessage("Your score is: "+score+" out of "+totalQuestions)
+                .setPositiveButton("Restart", (dialog, which) -> restartQuiz())
+                .setNegativeButton("Finish", (dialog, which) -> finish())
                 .setCancelable(false)
                 .show();
     }
+
     private void restartQuiz(){
         score=0;
         currentQuestionIndex=0;
